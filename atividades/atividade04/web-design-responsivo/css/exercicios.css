@@ -1,0 +1,89 @@
+.container {
+  margin: 0 auto;
+  width: 80%;
+  position: relative;
+}
+header{
+  padding: 20px 0;
+}
+header h1 {
+  display: inline-block;
+  margin: 0 0 0 20px;
+}
+main {
+  display: block;
+}
+nav{
+
+}
+nav ul{
+  display: inline-block;
+}
+nav ul li{
+  display: inline-block;
+}
+.destaques {
+  padding: 20px 0 0 0;
+}
+#conteudo {
+  width: 65%;
+  float: left;
+}
+#widgets {
+  width: 34%;
+  padding-left: 1%;
+  float: right;
+}
+.secao {
+  float: left;
+}
+.besquerda, .bdireita {
+  display: inline-block;
+  vertical-align: top;
+  width: 45%;
+}
+.direita {
+  margin-left: 25px;
+}
+.barra-nav{
+  display: inline-block;
+  right: 0px;
+  position: absolute;
+}
+.d1 {
+  width: 48%;
+}
+.d100 {
+  width: 100%;
+}
+.chamada.normal h2 {
+    font-size: 1.1em;
+}
+.chamada.normal.mini h2 {
+  font-size: 1em;
+}
+
+#conteudo div.secao a.mini{
+  /*float: left;
+  width: 45%;*/
+}
+#conteudo div.d1 div.besquerda a, #conteudo div.d1 div.bdireita a {
+  margin: 0;
+  padding: 0;
+}
+#widgets img {
+  width: 100%;
+}
+footer {
+  background: #B7B2B2;
+  width: 100%;
+  height: 30px;
+  display: inline-block;
+  margin-top: 35px;
+  padding: 0;
+}
+footer p {
+  text-align: center;
+  color: #fff;
+  font-style: italic;
+}

@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="pt">
+	<head>
+		<meta charset="UTF-8">
+		<title>Boletim Escolar</title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css">
+		<link rel="stylesheet" type="text/css" href="css/boletim.css">
+	</head>
+	<body>
+		<header>
+			<figure>
+					<img src="imagens/logo2.png" alt="IFPI" />
+			</figure>
+			<h1>Sistema de Boletim</h1>
+		</header>
+		<main class="container">
+			<section>
+				<h2>Alunos</h2>
+				<table>
+					<tr>
+						<th>Nome</th>
+						<th>Nota 1</th>
+						<th>Nota 2</th>
+						<th>Média</th>
+						<th>Situação</th>
+					</tr>
+					<tr class="aluno">
+						<td class="info-nome" id="nome-1">Leonardo</td>
+						<td class="info-nota01" id="nota01-1">6</td>
+						<td class="info-nota02" id="nota02-1">10</td>
+						<td class="info-media" id="media-1"></td>
+						<td class="info-situacao" id="situacao-1"></td>
+					</tr>
+					<tr class="aluno">
+						<td class="info-nome" id="nome-2">Paulo</td>
+						<td class="info-nota01" id="nota01-2">3</td>
+						<td class="info-nota02" id="nota02-2">9</td>
+						<td class="info-media" id="media-2"></td>
+						<td class="info-situacao" id="situacao-2"></td>
+					</tr>
+				</table>
+				<button id="calcular-media" class="botao ">Calcular Médias</button>
+			</section>
+			<section>
+				<h2>Adicionar novo aluno</h2>
+				<form>
+					<fieldset>
+						<label for="nome">Nome:</label>
+						<input id="campo-nome" type="text" placeholder="Digite o nome do aluno">
+					</fieldset>
+					<fieldset class="campo-medio">
+						<label for="nota-01">Nota 1:</label>
+						<input id="campo-nota1" type="text" placeholder="Digite a primeira nota">
+					</fieldset>
+					<fieldset class="campo-medio">
+						<label for="nota-02">Nota 2:</label>
+						<input id="campo-nota2" type="text" placeholder="Digite a segunda nota">
+					</fieldset>
+					<button id="adicionar-aluno" class="botao bto-principal">Adicionar</button>
+				</form>
+			</section>
+		</main>
+		<script src="js/percorre.js"></script>
+		<script src="js/imprime-nome.js"></script>
+		<script src="js/calcula-medias.js"></script>
+		<script src="js/adiciona.js"></script>
+	</body>
+</html>

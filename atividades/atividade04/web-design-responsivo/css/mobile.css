@@ -1,0 +1,94 @@
+.container {
+  width: 96%;
+}
+header h1 {
+  text-align: center;
+  display: block;
+  margin: 0;
+}
+header h1 img {
+  max-width: 50%;
+}
+.logo img {
+  display: inline;
+}
+.barra-nav {
+  position: static;
+  display: block;
+  text-align: center;
+}
+.menu-principal {
+  position: static;
+  text-align: center;
+}
+.menu-principal ul li {
+  display: inline-block;
+  margin: 5px;
+}
+#conteudo {
+  width: 96%;
+  float: none;
+}
+.d1 {
+  width: 100%;
+}
+#conteudo div.direita{
+  margin: 0;
+}
+/*#conteudo div.direita div.direita{
+  margin-left: 25px;
+}*/
+#conteudo div.d1 div.besquerda, #conteudo div.d1 div.bdireita, #conteudo div.d100 div.besquerda, #conteudo div.d100 div.bdireita{
+  width: 100%;
+}
+#widgets {
+  width: 96%;
+  float: none;
+  padding: 0;
+}
+@media (min-width: 720px) {
+  .container {
+    margin: 0 auto;
+    width: 96%;
+    position: relative;
+  }
+  header{
+    padding: 20px 0;
+    height: 100px;
+  }
+  header h1 {
+    display: inline-block;
+    margin: 0 0 0 20px;
+    text-align: inherit;
+  }
+  header h1 img {
+    max-width: 100%;
+  }
+  nav ul{
+    display: inline-block;
+  }
+  nav ul li{
+    display: inline-block;
+  }
+  .logo img {
+  	display: block;
+  }
+  .barra-nav{
+    display: inline-block;
+    right: 0px;
+    position: absolute;
+  }
+  .destaques {
+    padding: 20px 0 0 0;
+  }
+  #conteudo {
+    width: 65%;
+    float: left;
+  }
+  #widgets {
+    width: 34%;
+    padding-left: 1%;
+    float: right;
+  }
+
+}
